@@ -130,3 +130,30 @@ footer p {
     text-shadow: 8px 7px 7px rgba(0, 0, 0, 0.300);
     text-align: center;
 }
+
+@media (max-width:500px) {
+    .jogo {
+        margin: 15px;
+    background-color: var(--gray);
+    width: 100px;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: 8px 7px 7px rgba(0, 0, 0, 0.300);
+    }
+    .jogo h2 {
+        background-color:var(--red) ;
+        font-family: 'Bebas Neue', cursive, Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: normal;
+        color: white;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .jogo img {
+        display: block;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px ;
+        width: 100px;
+        height: 100px;
+    }
+}
